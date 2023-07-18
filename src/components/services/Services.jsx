@@ -14,63 +14,6 @@ const Services = () => {
       <span className="section__subtitle">O que posso oferecer</span>
 
       <div className="services__container container grid">
-        {/* Product Designer */}
-        <div className="services__content">
-          <div>
-            <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">Product <br /> Designer</h3>
-          </div>
-
-          <span className="services__button" onClick={() => toggleTab(1)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
-
-          <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
-            <div className="services__modal-content">
-              <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-
-              <h3 className="services__modal-title">Product Designer</h3>
-              <p className="services__modal-description">
-                Como Product Designer, ofereço soluções criativas e eficazes para produtos digitais, com foco nas necessidades dos usuários e objetivos do negócio.
-              </p>
-
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Eu desenvolvo a interface do usuário.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Desenvolvimento de página web.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Eu crio interações de elemento UX.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Posiciono a marca da sua empresa.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design e mockups de produtos para empresas.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
 
         {/* UI / UX Designer */}
         <div className="services__content">
@@ -79,9 +22,9 @@ const Services = () => {
             <h3 className="services__title">UI / UX <br /> Designer</h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
+          <span className="services__button" onClick={() => toggleTab(1)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
 
-          <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
+          <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
@@ -137,9 +80,9 @@ const Services = () => {
             <h3 className="services__title">Branding <br /> Designer</h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(3)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
+          <span className="services__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
 
-          <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
+          <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
@@ -195,9 +138,9 @@ const Services = () => {
             <h3 className="services__title">Web Application <br /> Development</h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(4)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
+          <span className="services__button" onClick={() => toggleTab(3)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
 
-          <div className={toggleState === 4 ? "services__modal active-modal" : "services__modal"}>
+          <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
@@ -253,9 +196,9 @@ const Services = () => {
             <h3 className="services__title">APIs Application <br /> Development</h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(5)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
+          <span className="services__button" onClick={() => toggleTab(4)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
 
-          <div className={toggleState === 5 ? "services__modal active-modal" : "services__modal"}>
+          <div className={toggleState === 4 ? "services__modal active-modal" : "services__modal"}>
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
@@ -297,6 +240,65 @@ const Services = () => {
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Eu crio documentações clara e consisa da API, facilitando a integração de novos usuários e desenvolvedores.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Database Administrator */}
+        <div className="services__content">
+          <div>
+            <i className="uil uil-base services__icon"></i>
+            <i class='uil bx bxs-data services__icon'></i>
+            <h3 className="services__title">Database <br /> Administrator</h3>
+          </div>
+
+          <span className="services__button" onClick={() => toggleTab(5)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
+
+          <div className={toggleState === 5 ? "services__modal active-modal" : "services__modal"}>
+            <div className="services__modal-content">
+              <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
+
+              <h3 className="services__modal-title">DBA</h3>
+              <p className="services__modal-description">
+                Como Database Administrator, ofereço soluções criativas e eficientes para empresas que desejam gerenciar e proteger seus dados de forma segura e escalável. Ofereço serviços de gerenciamento de bancos de dados, otimização de desempenho, segurança de dados, backup e recuperação de dados, e implementação de novas tecnologias de banco de dados.
+              </p>
+
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Gerenciamento de bancos de dados, incluindo a instalação, configuração e manutenção de bancos de dados relacionais e não relacionais.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Otimização de desempenho, garantindo que os bancos de dados estejam funcionando de forma eficiente e que as consultas e operações sejam executadas rapidamente.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Segurança de dados, implementando medidas de segurança como autenticação, autorização e criptografia de dados para proteger as informações dos usuários.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Backup e recuperação de dados, garantindo que os dados estejam sempre disponíveis e que possam ser recuperados em caso de perda de dados ou falha no sistema.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Implementação de novas tecnologias de banco de dados, acompanhando as tendências do mercado e avaliando novas tecnologias e ferramentas para melhorar a eficiência e a segurança dos bancos de dados.
                   </p>
                 </li>
               </ul>
@@ -420,11 +422,11 @@ const Services = () => {
           </div>
         </div>
 
-        {/*  */}
+        {/* Machine Learning and BI Developer */}
         <div className="services__content">
           <div>
-            <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">Visual <br /> Designer</h3>
+            <i className="uil uil-chart services__icon"></i>
+            <h3 className="services__title">Machine and BI <br /> Developer</h3>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(8)}>Veja mais <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -433,44 +435,44 @@ const Services = () => {
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Machine Learning and BI Developer</h3>
               <p className="services__modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis maiores facere, dolore assumenda nulla libero dignissimos tempora autem!
+                Como desenvolvedor de Business Intelligence e Machine Learning, ofereço soluções criativas e inteligentes para empresas que desejam extrair insights valiosos de seus dados e melhorar a tomada de decisões. Ofereço serviços de desenvolvimento de modelos de Machine Learning, criação de dashboards, análise de dados, implementação de pipelines de dados e visualização de dados.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Eu posso desenvolver modelos de Machine Learning personalizados, utilizando algoritmos como regressão, classificação, clusterização, entre outros, para extrair insights valiosos dos dados da empresa.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Web page development.
+                    Faço a criação de dashboards personalizados, permitindo que os usuários visualizem e interajam com os dados de forma intuitiva e eficiente.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
+                    Realizo a análise de dados, identificando padrões e tendências nos dados da empresa e fornecendo insights valiosos para a tomada de decisões.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position yout company brand.
+                    Implementação de pipelines de dados, permitindo que os dados sejam coletados, processados e armazenados de forma eficiente e segura.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Visualização de dados, utilizando técnicas de visualização de dados para tornar os insights obtidos a partir dos dados mais claros e compreensíveis.
                   </p>
                 </li>
               </ul>
