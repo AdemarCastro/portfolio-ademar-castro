@@ -2,6 +2,7 @@
   grid-template-columns: repeat(2, 450px);
   column-gap: 3rem;
   justify-content: center;
+  cursor: grab;
 }
 
 .skills__content {
@@ -10,6 +11,7 @@
   padding: 2rem 4rem;
   border-radius: 1.25rem;
   height: 500px;
+  cursor: grab;
 }
 
 .skills__title {
@@ -58,19 +60,20 @@
 }
 
 .swiper__slide {
-  padding: 0 3rem 3rem 3rem;
+  padding: 0 3rem 4rem 3rem;
+  overflow: auto;
 }
-
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #0CC0DF !important;
+  color: var(--title-color);
   padding-bottom: 2.5rem;
 }
 
 
 .swiper-pagination-bullet {
-  background-color: #0CC0DF !important;
+  background-color: var(--title-color) !important;
+  padding: 6px;
 }
 
 /* =============== BREAKPOINTS =============== */

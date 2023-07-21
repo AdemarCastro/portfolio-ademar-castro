@@ -186,6 +186,12 @@
   color: rgb(255, 230, 0);
 }
 
+.projeto-em-andamento i {
+  font-size: 2.2rem;
+  padding: 0 0.5rem;
+  color: rgb(206, 28, 28);
+}
+
 /* =============== BREAKPOINTS =============== */
 /* For large devices */
 @media screen and (max-width: 992px) {

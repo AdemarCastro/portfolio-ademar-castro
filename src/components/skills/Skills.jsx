@@ -7,6 +7,7 @@ import Testerqa from './Testerqa';
 import Dataanalystic from './Dataanalystic';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState } from 'react';
+import { mouseDownHandler } from '../touchpad/Touchpad';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -14,11 +15,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard, Scrollbar, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Mousewheel, Keyboard, Scrollbar, Autoplay} from 'swiper/modules';
 
 const Skills = () => {
   const [slidesPerView, setSlidesPerView] = useState(3);
   const [navigation, setNavigation] = useState(true);
+
+  // Função para verificar se o dispositivo suporta touch
+  const isDeviceTouch = () => {
+    return 'ontouchstart' in window || navigator.msMaxTouchPoints;
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -50,23 +56,22 @@ const Skills = () => {
       <span className="section__subtitle">Meu nível técnico</span>
       
       <Swiper
+        modules={[Navigation, Pagination, Mousewheel, Keyboard, Scrollbar, Autoplay]}
         slidesPerView={slidesPerView}
-        cssMode={true}
-        navigation={navigation}
         pagination={{
           clickable: true,
         }}
         scrollbar={{
-          hide: true,
+          draggable: true,
         }}
-        mousewheel={true}
+        cssMode={isDeviceTouch()}
         keyboard={true}
+        loop={true}
         autoplay={{ delay: 5000, pauseOnMouseEnter: true }}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard, Scrollbar, Autoplay]}
         className="mySwiper"
       >
         
-          <div className="skills__container container grid">
+          <div className="skills__container container grid" onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
             <SwiperSlide className='swiper__slide'>
               <Webdesigner />
             </SwiperSlide>
