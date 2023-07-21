@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './qualification.css';
 
 const Qualification = () => {
@@ -9,7 +9,7 @@ const Qualification = () => {
   }
 
   return (
-    <section className="qualification section">
+    <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualificações</h2>
       <span className="section__subtitle">Minha carreira</span>
 
@@ -22,7 +22,7 @@ const Qualification = () => {
               : "qualification__button button__flex"}
             onClick={() => toggleTab(1)}
             >
-            <i className="uil uil-graduation-cap qualification__icon"> Educação</i>
+            <i className="uil uil-graduation-cap qualification__icon"> Acadêmica</i>
           </div>
 
           <div
@@ -32,7 +32,7 @@ const Qualification = () => {
               : "qualification__button button__flex"}
             onClick={() => toggleTab(2)}
             >
-            <i className="uil uil-briefcase-alt qualification__icon"> Experiência</i>
+            <i className="uil uil-briefcase-alt qualification__icon"> Profissional</i>
           </div>
         </div>
 
@@ -45,16 +45,16 @@ const Qualification = () => {
             {/* 1ª - data */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">IFAM - Amazonas</span>
+                <h3 className="qualification__title left" id="data1">OPEN CG Pacote Adobe</h3>
+                <span className="qualification__subtitle left" id="data1">Gracom - Manaus/AM</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Agora
+                  <i className="uil uil-calendar-alt left" id="data1"> 2016 - 2018</i>
                 </div>
               </div>
 
                 <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
+                  <span className="qualification__rounder" id="data1"></span>
+                  <span className="qualification__line" id="data1"></span>
                 </div>
             </div>
             {/* 2ª - data */}
@@ -62,47 +62,15 @@ const Qualification = () => {
               <div></div>
 
               <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
+                  <span className="qualification__rounder"  id="data2"></span>
+                  <span className="qualification__line"  id="data2"></span>
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">IFAM - Amazonas</span>
+                <h3 className="qualification__title right" id="data2">Tec. em Análise de Sistemas</h3>
+                <span className="qualification__subtitle right" id="data2">IFAM - Manaus/AM</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
-                </div>
-              </div>
-            </div>
-            {/* 3ª - data */}
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">IFAM - Amazonas</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
-                </div>
-              </div>
-
-                <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
-                </div>
-            </div>
-            {/* 4ª - data */}
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">IFAM - Amazonas</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt right" id="data2">02/2022 - Agora</i>
                 </div>
               </div>
             </div>
@@ -116,16 +84,16 @@ const Qualification = () => {
             {/* 1ª - data */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
-                <span className="qualification__subtitle">Google - UEA</span>
+                <h3 className="qualification__title left" id="data1">Soldado EV</h3>
+                <span className="qualification__subtitle left" id="data1">PQR MNT 12 - Manaus/AM</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Agora
+                  <i className="uil uil-calendar-alt left" id="data1"> 03/2017 - 02/2018</i>
                 </div>
               </div>
 
                 <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
+                  <span className="qualification__rounder" id="data1"></span>
+                  <span className="qualification__line" id="data1"></span>
                 </div>
             </div>
             {/* 2ª - data */}
@@ -133,47 +101,15 @@ const Qualification = () => {
               <div></div>
 
               <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
+                  <span className="qualification__rounder" id="data2"></span>
+                  <span className="qualification__line" id="data2"></span>
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">Apple - UX e UI</span>
+                <h3 className="qualification__title right" id="data2">Bolsista</h3>
+                <span className="qualification__subtitle right" id="data2">Projeto Aranouá - Manaus/AM</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2022
-                </div>
-              </div>
-            </div>
-            {/* 3ª - data */}
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Micosoft - Amazonas</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2019 - 2020
-                </div>
-              </div>
-
-                <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
-                </div>
-            </div>
-            {/* 4ª - data */}
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Designer</h3>
-                <span className="qualification__subtitle">TRT - Amazonas</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 
+                  <i className="uil uil-calendar-alt right" id="data2"> 07/2022 - Agora</i>
                 </div>
               </div>
             </div>

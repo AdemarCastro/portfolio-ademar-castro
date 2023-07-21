@@ -56,7 +56,7 @@ const Data = () => {
       </h1>
       {/* ========== Icone ========== */}
       
-      <h3 className='home__subtitle'>Full Stack Developer</h3>
+      <h3 className='home__subtitle'>Desenvolvedor Web</h3>
       <p className="home__description">Sou um desenvolvedor apaixonado por aprender novas ferramentas e tecnologias, resido em Manaus/AM e sou muito dedicado ao meu trabalho.</p>
 
       <a href="#contact" className="button button__flex">

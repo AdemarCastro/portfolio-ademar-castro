@@ -15,11 +15,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard, Scrollbar, Autoplay} from 'swiper/modules';
+import { Pagination, Mousewheel, Keyboard, Scrollbar, Autoplay} from 'swiper/modules';
 
 const Skills = () => {
   const [slidesPerView, setSlidesPerView] = useState(3);
-  const [navigation, setNavigation] = useState(true);
 
   // Função para verificar se o dispositivo suporta touch
   const isDeviceTouch = () => {
@@ -32,13 +31,10 @@ const Skills = () => {
 
       if (width < 576) {
         setSlidesPerView(1);
-        setNavigation(false);
       } else if (width < 875) {
         setSlidesPerView(1);
-        setNavigation(true);
       } else {
         setSlidesPerView(2);
-        setNavigation(true);
       }
     };
 
@@ -56,7 +52,7 @@ const Skills = () => {
       <span className="section__subtitle">Meu nível técnico</span>
       
       <Swiper
-        modules={[Navigation, Pagination, Mousewheel, Keyboard, Scrollbar, Autoplay]}
+        modules={[Pagination, Mousewheel, Keyboard, Scrollbar, Autoplay]}
         slidesPerView={slidesPerView}
         pagination={{
           clickable: true,
@@ -67,7 +63,7 @@ const Skills = () => {
         cssMode={isDeviceTouch()}
         keyboard={true}
         loop={true}
-        autoplay={{ delay: 5000, pauseOnMouseEnter: true }}
+        autoplay={{ delay: 3000}}
         className="mySwiper"
       >
         

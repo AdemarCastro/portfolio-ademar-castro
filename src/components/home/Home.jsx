@@ -9,11 +9,6 @@ const Home = () => {
   return (
     <section className="home section" id='home'>
       <div className='home__container container grid'>
-        <div className='projeto-em-andamento'>
-          <i class='bx bx-traffic-cone'></i>
-          <h1>Projeto em Andamento</h1>
-          <i class='bx bx-traffic-cone'></i>
-        </div>
         <div className="home__content grid">
           <Social />
 
