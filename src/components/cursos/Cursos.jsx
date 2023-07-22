@@ -154,14 +154,28 @@ const Cursos = () => {
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Desenvolvimento completo frontend e backend.
+                    Aprendizado do desenvolvimento do frontend e backend de uma aplicação web.
                   </p>
                 </li>
 
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Consumo de APIs e utilização de CRUD.
+                    Desenvolvimento completo da integração entre as partes frontend e backend.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Aplicação de conhecimentos para consumir APIs por meio de endpoints.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Utilização das técnicas CRUD (GET, PUT, POST e DELETE) para lidar com as requisições e o tratamento da conexão com o Banco de Dados.
                   </p>
                 </li>
               </ul>

@@ -9,6 +9,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Cursos from './components/cursos/Cursos';
+import Projects from './components/projects/Projects';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       <Qualification />
       <Cursos />
       <Services />
+      <Projects />
       <Contact />
     </main>
 
