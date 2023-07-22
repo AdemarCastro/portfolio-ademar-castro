@@ -31,46 +31,96 @@ const Cursos = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
-                <h3 className="cursos__modal-title">UI / UX Designer</h3>
+                <h3 className="cursos__modal-title">Desenvolvimento Web - UDEMY</h3>
                 <p className="cursos__modal-description">
-                  Como UI/UX Designer, ofereço interfaces de usuário intuitivas e agradáveis, que proporcionam uma experiência de usuário excepcional e atendem aos objetivos do negócio.
+                  O curso de Desenvolvimento Web possui uma carga horária de 140 horas e tem como objetivo ensinar todo o processo de desenvolvimento de software web, abordando diversos tópicos fundamentais. Durante o curso, foram abordados os seguintes temas:
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Eu crio wireframes e protótipos para validar conceitos de produtos.
+                      Fundamentos de HTML, CSS e Javascript.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Faço testes de usabilidade e pesquisa de mercado.
+                      Introdução ao DOM e controle de versão com Git/GitHub.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Desenvolvo interfaces acessíveis e inclusivas.
+                      Framework Bootstrap e desenvolvimento em Typescript.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Colaboro em equipes de desenvolvimento.
+                      Conexão Frontend e Backend com Express e APIs HTTP.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Melhoria continua da experiência do usuário.
+                      Bancos de Dados MySQL, MariaDB e MongoDB.
                     </p>
                   </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Cookies, Sessões e Autenticação.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Rodar aplicações em Contêineres com Docker.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Desenvolvimento de RESTful APIs.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Gerenciamento de Estados com Redux.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Teste de Software com Jest.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Integração Contínua e Deploy com GitHub e Vercel/Netlify/Firebase.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Processo de Desenvolvimento Ágil com Jira.
+                    </p>
+                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -95,44 +145,23 @@ const Cursos = () => {
 
               
 
-              <h3 className="cursos__modal-title">Branding Designer</h3>
+              <h3 className="cursos__modal-title">Desenvolvimento de Aplicações Web - IFAM</h3>
               <p className="cursos__modal-description">
-                Como Branding Designer, ofereço soluções criativas e visuais para produtos digitais, com foco na estética e na identidade visual da marca. Ofereço serviços de criação de layouts, criação de elementos visuais, desenvolvimento de identidade visual e design de materiais de marketing.
+                Durante a minha experiência na disciplina de Desenvolvimento de Aplicações Web na faculdade de Análise de Sistemas, com duração de 80 horas, obtive conquistas significativas ao desenvolver várias habilidades relacionadas a aplicações web. Dentre as principais conquistas, estão:
               </p>
 
               <ul className="cursos__modal-cursos grid">
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Criação de layouts atraentes.
+                    Desenvolvimento completo frontend e backend.
                   </p>
                 </li>
 
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Criação de elementos visuais.
-                  </p>
-                </li>
-
-                <li className="cursos__modal-service">
-                  <i className="uil uil-check-circle cursos__modal-icon"></i>
-                  <p className="cursos__modal-info">
-                  Desenvolvimento de identidade visual, incluindo logotipos, esquemas de cores e tipografia.
-                  </p>
-                </li>
-
-                <li className="cursos__modal-service">
-                  <i className="uil uil-check-circle cursos__modal-icon"></i>
-                  <p className="cursos__modal-info">
-                    Eu crio o design de materiais, como banners, cartazes e folhetos, para promover a marca e seus produtos/serviços.
-                  </p>
-                </li>
-
-                <li className="cursos__modal-service">
-                  <i className="uil uil-check-circle cursos__modal-icon"></i>
-                  <p className="cursos__modal-info">
-                    Colaboração com outras equipes de desenvolvimento, como UX Designers e engenheiros de software, para garantir que o design visual esteja alinhado com a experiência do usuário e os objetivos do negócio.
+                    Consumo de APIs e utilização de CRUD.
                   </p>
                 </li>
               </ul>
@@ -157,23 +186,23 @@ const Cursos = () => {
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
                 
 
-                <h3 className="cursos__modal-title">Web Application Development</h3>
+                <h3 className="cursos__modal-title">Desenvolvimento na Prática com Spring e Testes - ARANOUÁ</h3>
                 <p className="cursos__modal-description">
-                Como Web Application Developer, ofereço soluções criativas e funcionais para empresas que desejam disponibilizar seus produtos e serviços na web. Ofereço serviços de desenvolvimento de front-end e back-end, criação de aplicações personalizadas, otimização de desempenho e segurança de aplicações.
+                  Durante o curso de Spring e Testes, com certificação do Projeto ARANOUÁ, do qual sou Bolsista, e duração de 40 horas, tive a oportunidade de aprender sobre o desenvolvimento backend e a realização de testes em aplicações Java. Algumas das principais áreas abordadas foram:
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Eu desenvolvo o front-end e back-end de sua aplicação do zero.
+                      Desenvolvimento em Java usando IntelliJ IDEA com Sring Boot.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Criação de aplicações web personalizadas, que atendam às necessidades específicas de cada empresa e seus usuários.
+                      Enfoque em Testes utilizando o JUnit: unitários e de integração.
                     </p>
                   </li>
 
@@ -187,14 +216,7 @@ const Cursos = () => {
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Segurança de aplicações, implementando medidas de segurança para proteger os dados dos usuários e impedir ataques maliciosos.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Colaboração com outras equipes de desenvolvimento, como designers e gerentes de produto, para garantir que a aplicação atenda às expectativas dos usuários e do negócio.
+                      Manipulação de requisições HTTP com métodos CRUD no Banco de Dados JPA e uso do Postman.
                     </p>
                   </li>
                 </ul>
@@ -218,44 +240,30 @@ const Cursos = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
 
-                <h3 className="cursos__modal-title"> APIs Application Development</h3>
+                <h3 className="cursos__modal-title"> UI/UX Interface Homem Máquina  - IFAM</h3>
                 <p className="cursos__modal-description">
-                  Como APIs Application Developer, ofereço soluções criativas e eficazes para empresas que desejam disponibilizar seus serviços por meio de APIs. Ofereço serviços de desenvolvimento de APIs RESTful, integração de sistemas, otimização de desempenho e segurança de APIs.
+                  Durante a disciplina de Interface de Homem Máquina do curso de Análise de Sistemas, que possui a duração de 60 horas, aprendi sobre os seguintes tópicos relacionados ao design de interfaces e experiência do usuário:
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Desenvolvimento de APIs RESTful, utilizando tecnologias como Node.js, e Python, para disponibilizar serviços de forma segura e escalável.
+                      Conceitos de interface e design centrado no usuário.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Integração de sistemas, permitindo que diferentes sistemas e plataformas possam se comunicar e trocar informações por meio de APIs.
+                      Princípios de design de interfaces gráficas e interação.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Otimização de desempenho de APIs, garantindo que a API seja rápida e responsiva, mesmo em picos de tráfego.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Segurança de APIs, implementando medidas de segurança como autenticação, autorização e criptografia de dados para proteger as informações dos usuários.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Eu crio documentações clara e consisa da API, facilitando a integração de novos usuários e desenvolvedores.
+                      Design responsivo e prototipagem.
                     </p>
                   </li>
                 </ul>
@@ -280,44 +288,51 @@ const Cursos = () => {
 
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
 
-                <h3 className="cursos__modal-title">DBA</h3>
+                <h3 className="cursos__modal-title">Programação Orientada a Objetos - IFAM</h3>
                 <p className="cursos__modal-description">
-                  Como Database Administrator, ofereço soluções criativas e eficientes para empresas que desejam gerenciar e proteger seus dados de forma segura e escalável. Ofereço serviços de gerenciamento de bancos de dados, otimização de desempenho, segurança de dados, backup e recuperação de dados, e implementação de novas tecnologias de banco de dados.
+                  No curso de Programação Orientada a Objetos em Java do Instituto Federal de Educação, Ciência e Tecnologia, no curso de Tecnologia em Análise e Desenvolvimento de Sistemas, com duração de 80 horas, aprendi sobre:
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Gerenciamento de bancos de dados, incluindo a instalação, configuração e manutenção de bancos de dados relacionais e não relacionais.
+                      Conceitos fundamentais de POO, classes, objetos, herança, polimorfismo, encapsulamento e abstração.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Otimização de desempenho, garantindo que os bancos de dados estejam funcionando de forma eficiente e que as consultas e operações sejam executadas rapidamente.
+                      Utilização da linguagem Java para implementação de sistemas orientados a objetos.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Segurança de dados, implementando medidas de segurança como autenticação, autorização e criptografia de dados para proteger as informações dos usuários.
+                      Design e arquitetura de software utilizando POO e padrões de projeto.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Backup e recuperação de dados, garantindo que os dados estejam sempre disponíveis e que possam ser recuperados em caso de perda de dados ou falha no sistema.
+                      Manipulação de coleções, exceções e interfaces gráficas em Java.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Implementação de novas tecnologias de banco de dados, acompanhando as tendências do mercado e avaliando novas tecnologias e ferramentas para melhorar a eficiência e a segurança dos bancos de dados.
+                      Integração com bancos de dados através de JDBC.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Boas práticas de programação e segurança.
                     </p>
                   </li>
                 </ul>
@@ -328,7 +343,7 @@ const Cursos = () => {
           </div>
         </div>
 
-        {/* PVersionamento de Cód. com Git e GitHub */}
+        {/* Versionamento de Cód. com Git e GitHub */}
         <div className="cursos__content">
           <div className="cursos__img-4"></div>
           <div>
@@ -344,44 +359,51 @@ const Cursos = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
-                <h3 className="cursos__modal-title">Process Automation System Development</h3>
+                <h3 className="cursos__modal-title">Versionamento de Código com Git e GitHub - DIO</h3>
                 <p className="cursos__modal-description">
-                  Como Process Automation System Developer, ofereço soluções criativas e eficientes para empresas que desejam automatizar processos manuais e otimizar suas operações. Ofereço serviços de análise de processos, desenvolvimento de sistemas de automação, integração de sistemas e treinamento de usuários."
+                  No curso introdutório de Versionamento de Código com Git e GitHub da Digital Innovation One (DIO), com duração de 5 horas, aprendi:
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Análise de processos, identificando processos manuais e ineficientes que podem ser automatizados e otimizados.
+                      Introdução ao Git, um sistema de controle de versão amplamente utilizado no desenvolvimento de software.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Eu desenvolvo sistemas de automação personalizados, utilizando tecnologias como RPA (Robotic Process Automation), chatbots, workflows, entre outras, para automatizar processos de forma segura e escalável.
+                      Comandos básicos do Git, como inicialização de repositórios, criação de branches, commit, merge e histórico de alterações.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Integração de sistemas de automação com outros sistemas e plataformas existentes na empresa, permitindo uma visão holística dos processos automatizados.
+                      Utilização do GitHub, plataforma de hospedagem de código-fonte baseada em Git, para colaboração em projetos e compartilhamento de código.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Treinamento de usuários, capacitando-os para utilizar os sistemas de automação e garantindo que a adoção da nova tecnologia seja efetiva.
+                      Criação e gerenciamento de repositórios no GitHub.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                    Monitoramento e manutenção contínuos dos sistemas de automação, garantindo que eles estejam funcionando corretamente e identificando oportunidades de melhoria e otimização dos processos automatizados.
+                      Realização de pull requests e revisão de código.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Trabalho em equipe com Git e GitHub, permitindo a colaboração eficiente de múltiplos desenvolvedores em projetos.
                     </p>
                   </li>
                 </ul>
@@ -407,44 +429,37 @@ const Cursos = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
-                <h3 className="cursos__modal-title">Test/QA Developer</h3>
+                <h3 className="cursos__modal-title">Metodologias Ágeis com SCRUM, KABAN e XP - IFAM</h3>
                 <p className="cursos__modal-description">
-                  Como Tester/QA, ofereço soluções criativas e eficazes para empresas que desejam garantir a qualidade e a confiabilidade de seus produtos de software. Ofereço serviços de testes manuais e automatizados, elaboração de planos de testes, identificação e relato de bugs, e análise de desempenho e segurança do software.
+                  No curso de Análise de Sistemas realizado no Instituto Federal do Amazonas (IFAM), com duração de 60 horas, adquiri conhecimentos fundamentais na área de análise e desenvolvimento de sistemas. Algumas das principais áreas abordadas no curso foram:
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Eu realizo testes manuais e automatizados, garantindo que o software esteja funcionando corretamente e atendendo aos requisitos do usuário.
+                      Fundamentos de Análise de Sistemas e Modelagem de Dados.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Elaboração de planos de testes, identificando os diferentes cenários de teste que devem ser realizados para garantir a qualidade do software.
+                      Desenvolvimento de Diagramas de Casos de Uso e Sequência.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Identificação e relato de bugs, reportando de forma clara e precisa os problemas encontrados no software e trabalhando com a equipe de desenvolvimento para corrigi-los.
+                      Arquitetura de Software e Desenvolvimento Ágil com Scrum.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Análise de desempenho do software, identificando gargalos e oportunidades de otimização para melhorar a velocidade e a eficiência do software.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Análise de segurança do software, identificando vulnerabilidades e ameaças potenciais e trabalhando com a equipe de desenvolvimento para implementar medidas de segurança para proteger os dados dos usuários.
+                      Noções de Gerenciamento de Projetos.
                     </p>
                   </li>
                 </ul>
@@ -471,44 +486,72 @@ const Cursos = () => {
 
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
 
-                <h3 className="cursos__modal-title">Machine Learning and BI Developer</h3>
+                <h3 className="cursos__modal-title">Banco de Dados SQL e NOSQL (MySQL, MariaDB, MongoDB) - IFAM</h3>
                 <p className="cursos__modal-description">
-                  Como desenvolvedor de Business Intelligence e Machine Learning, ofereço soluções criativas e inteligentes para empresas que desejam extrair insights valiosos de seus dados e melhorar a tomada de decisões. Ofereço serviços de desenvolvimento de modelos de Machine Learning, criação de dashboards, análise de dados, implementação de pipelines de dados e visualização de dados.
+                  No curso de Banco de Dados SQL e NoSQL, com duração de 80 horas, realizado no Instituto Federal do Amazonas (IFAM) no curso de Tecnologia em Análise e Desenvolvimento de Sistemas, aprendi sobre:
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Eu posso desenvolver modelos de Machine Learning personalizados, utilizando algoritmos como regressão, classificação, clusterização, entre outros, para extrair insights valiosos dos dados da empresa.
+                      Utilização dos gerenciadores de banco de dados HeidiSQL, MySQL, Oracle e MariaDB.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Faço a criação de dashboards personalizados, permitindo que os usuários visualizem e interajam com os dados de forma intuitiva e eficiente.
+                      Fundamentos do SQL e manipulação de tabelas, consultas e comandos no HeidiSQL.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Realizo a análise de dados, identificando padrões e tendências nos dados da empresa e fornecendo insights valiosos para a tomada de decisões.
+                      Exploração do Oracle e suas funcionalidades em aplicações empresariais.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Implementação de pipelines de dados, permitindo que os dados sejam coletados, processados e armazenados de forma eficiente e segura.
+                      Conhecimento sobre o MariaDB como alternativa ao MySQL.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Visualização de dados, utilizando técnicas de visualização de dados para tornar os insights obtidos a partir dos dados mais claros e compreensíveis.
+                      Modelagem de Banco de Dados Relacionais.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Consultas SQL para recuperação e manipulação de dados.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Introdução aos bancos de dados NoSQL.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Criação de Procedures em SQL para execução de tarefas específicas no banco de dados.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Automação da criação de Procedures com Triggers para responder a eventos e ações específicas no banco de dados.
                     </p>
                   </li>
                 </ul>
@@ -535,44 +578,58 @@ const Cursos = () => {
 
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
 
-                <h3 className="cursos__modal-title">Machine Learning and BI Developer</h3>
+                <h3 className="cursos__modal-title">Fundamentos em Testes de Software (Selenium e Jest) - ARANOUÁ</h3>
                 <p className="cursos__modal-description">
-                  Como desenvolvedor de Business Intelligence e Machine Learning, ofereço soluções criativas e inteligentes para empresas que desejam extrair insights valiosos de seus dados e melhorar a tomada de decisões. Ofereço serviços de desenvolvimento de modelos de Machine Learning, criação de dashboards, análise de dados, implementação de pipelines de dados e visualização de dados.
+                  No curso Fundamentos em Testes de Software, com duração de 40 horas, oferecido pelo Projeto Aranouá, do qual sou Bolsista, tive a oportunidade de aprofundar meus conhecimentos na área de testes de software. Algumas das principais áreas abordadas no curso foram:
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Eu posso desenvolver modelos de Machine Learning personalizados, utilizando algoritmos como regressão, classificação, clusterização, entre outros, para extrair insights valiosos dos dados da empresa.
+                      Introdução aos conceitos fundamentais de testes de software e sua importância no ciclo de desenvolvimento.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Faço a criação de dashboards personalizados, permitindo que os usuários visualizem e interajam com os dados de forma intuitiva e eficiente.
+                      Tipos de testes, incluindo testes unitários, testes de integração, testes funcionais e testes de aceitação.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Realizo a análise de dados, identificando padrões e tendências nos dados da empresa e fornecendo insights valiosos para a tomada de decisões.
+                      Metodologias de teste, como testes ágeis e testes exploratórios.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Implementação de pipelines de dados, permitindo que os dados sejam coletados, processados e armazenados de forma eficiente e segura.
+                      Estratégias para elaboração de casos de teste eficientes e abrangentes.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Visualização de dados, utilizando técnicas de visualização de dados para tornar os insights obtidos a partir dos dados mais claros e compreensíveis.
+                      Uso de ferramentas de automação de testes para agilizar o processo de testagem.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Análise e relatórios de resultados de testes, bem como o gerenciamento de defeitos.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Introdução as ferramenta Selenium e Jest para automatização de Testes.
                     </p>
                   </li>
                 </ul>
@@ -599,44 +656,51 @@ const Cursos = () => {
 
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
 
-                <h3 className="cursos__modal-title">Machine Learning and BI Developer</h3>
+                <h3 className="cursos__modal-title">OPEN CG (Tecnologias Adobe) - GRACOM</h3>
                 <p className="cursos__modal-description">
-                  Como desenvolvedor de Business Intelligence e Machine Learning, ofereço soluções criativas e inteligentes para empresas que desejam extrair insights valiosos de seus dados e melhorar a tomada de decisões. Ofereço serviços de desenvolvimento de modelos de Machine Learning, criação de dashboards, análise de dados, implementação de pipelines de dados e visualização de dados.
+                  No curso de OPEN CG (Tecnologias Adobe) realizado na GRACOM, com duração de 384 horas, tive a oportunidade de aprofundar meus conhecimentos nas tecnologias da Adobe, abrangendo uma ampla gama de ferramentas e aplicações para design e produção de conteúdo digital. Algumas das principais tecnologias e áreas abordadas no curso foram:
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Eu posso desenvolver modelos de Machine Learning personalizados, utilizando algoritmos como regressão, classificação, clusterização, entre outros, para extrair insights valiosos dos dados da empresa.
+                      Adobe Photoshop: edição e manipulação de imagens.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Faço a criação de dashboards personalizados, permitindo que os usuários visualizem e interajam com os dados de forma intuitiva e eficiente.
+                      Adobe Illustrator: criação de ilustrações vetoriais.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Realizo a análise de dados, identificando padrões e tendências nos dados da empresa e fornecendo insights valiosos para a tomada de decisões.
+                      Adobe InDesign: design de layouts para impressão.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Implementação de pipelines de dados, permitindo que os dados sejam coletados, processados e armazenados de forma eficiente e segura.
+                      Adobe Premiere Pro: edição de vídeos.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Visualização de dados, utilizando técnicas de visualização de dados para tornar os insights obtidos a partir dos dados mais claros e compreensíveis.
+                      Adobe After Effects: criação de animações e efeitos visuais.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Adobe XD: prototipação e design de interfaces.
                     </p>
                   </li>
                 </ul>
@@ -663,44 +727,51 @@ const Cursos = () => {
 
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
 
-                <h3 className="cursos__modal-title">Machine Learning and BI Developer</h3>
+                <h3 className="cursos__modal-title">Machine Learning com Python - ARANOUÁ</h3>
                 <p className="cursos__modal-description">
-                  Como desenvolvedor de Business Intelligence e Machine Learning, ofereço soluções criativas e inteligentes para empresas que desejam extrair insights valiosos de seus dados e melhorar a tomada de decisões. Ofereço serviços de desenvolvimento de modelos de Machine Learning, criação de dashboards, análise de dados, implementação de pipelines de dados e visualização de dados.
+                  No curso de Machine Learning com Python oferecido pelo Projeto ARANOUÁ, do qual sou Bolsista, tive a oportunidade de mergulhar no fascinante mundo do aprendizado de máquina utilizando a linguagem de programação Python. Com duração de 40 horas, o curso abrangeu os principais conceitos e técnicas de machine learning, permitindo-me aplicá-los em projetos práticos.
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Eu posso desenvolver modelos de Machine Learning personalizados, utilizando algoritmos como regressão, classificação, clusterização, entre outros, para extrair insights valiosos dos dados da empresa.
+                      Introdução ao Aprendizado de Máquina: Compreensão dos fundamentos e conceitos básicos do aprendizado de máquina.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Faço a criação de dashboards personalizados, permitindo que os usuários visualizem e interajam com os dados de forma intuitiva e eficiente.
+                      Bibliotecas e Frameworks em Python: Utilização de bibliotecas populares como Scikit-learn e TensorFlow para implementar algoritmos de machine learning.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Realizo a análise de dados, identificando padrões e tendências nos dados da empresa e fornecendo insights valiosos para a tomada de decisões.
+                      Pré-processamento de Dados: Aprendizado de técnicas para preparar e limpar os dados antes da construção dos modelos.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Implementação de pipelines de dados, permitindo que os dados sejam coletados, processados e armazenados de forma eficiente e segura.
+                      Modelagem e Treinamento de Modelos: Desenvolvimento e treinamento de modelos de machine learning para resolver problemas específicos.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Visualização de dados, utilizando técnicas de visualização de dados para tornar os insights obtidos a partir dos dados mais claros e compreensíveis.
+                      Avaliação e Métricas: Análise e avaliação da performance dos modelos utilizando métricas adequadas.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Aplicações Práticas: Realização de projetos práticos que envolveram a aplicação de algoritmos de machine learning em cenários reais.
                     </p>
                   </li>
                 </ul>
@@ -727,44 +798,37 @@ const Cursos = () => {
 
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
 
-                <h3 className="cursos__modal-title">Machine Learning and BI Developer</h3>
+                <h3 className="cursos__modal-title">Ethical Hacking (Docker) - ARANOUÁ</h3>
                 <p className="cursos__modal-description">
-                  Como desenvolvedor de Business Intelligence e Machine Learning, ofereço soluções criativas e inteligentes para empresas que desejam extrair insights valiosos de seus dados e melhorar a tomada de decisões. Ofereço serviços de desenvolvimento de modelos de Machine Learning, criação de dashboards, análise de dados, implementação de pipelines de dados e visualização de dados.
+                  No curso de Ethical Hacking oferecido pelo Projeto ARANOUÁ, do qual sou Bolsista, tive a oportunidade de adentrar o mundo do Hacking Ético e compreender as técnicas utilizadas para identificar vulnerabilidades em sistemas de forma ética e com propósitos educativos. O curso teve a duração de 40 horas e proporcionou um ambiente seguro para aplicação prática dos conhecimentos.
                 </p>
 
                 <ul className="cursos__modal-cursos grid">
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Eu posso desenvolver modelos de Machine Learning personalizados, utilizando algoritmos como regressão, classificação, clusterização, entre outros, para extrair insights valiosos dos dados da empresa.
+                      Introdução ao Ethical Hacking: Compreensão dos princípios éticos e legais envolvidos no Hacking Ético.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Faço a criação de dashboards personalizados, permitindo que os usuários visualizem e interajam com os dados de forma intuitiva e eficiente.
+                      Identificação de Vulnerabilidades: Aprendizado das principais técnicas e ferramentas utilizadas para identificar vulnerabilidades em sistemas.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Realizo a análise de dados, identificando padrões e tendências nos dados da empresa e fornecendo insights valiosos para a tomada de decisões.
+                      Exploração e Teste de Segurança: Prática das técnicas de exploração de vulnerabilidades e avaliação da segurança de sistemas.
                     </p>
                   </li>
 
                   <li className="cursos__modal-service">
                     <i className="uil uil-check-circle cursos__modal-icon"></i>
                     <p className="cursos__modal-info">
-                      Implementação de pipelines de dados, permitindo que os dados sejam coletados, processados e armazenados de forma eficiente e segura.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Visualização de dados, utilizando técnicas de visualização de dados para tornar os insights obtidos a partir dos dados mais claros e compreensíveis.
+                      Uso Responsável de Técnicas de Hacking: Enfoque no uso responsável das técnicas de Hacking para fins educativos e de conscientização.
                     </p>
                   </li>
                 </ul>
