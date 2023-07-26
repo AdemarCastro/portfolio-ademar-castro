@@ -10,6 +10,7 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Cursos from './components/cursos/Cursos';
 import Projects from './components/projects/Projects';
+import Theme from './components/theme/Theme';
 
 
 const App = () => {

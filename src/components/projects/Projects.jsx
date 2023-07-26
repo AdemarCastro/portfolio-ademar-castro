@@ -119,13 +119,13 @@ const Projects = () => {
             </div>
 
             <div className="project__link">
-              <button className="button button__flex">
-                <a href="https://deploy-spotify-clone.web.app/" target='__blank'>Veja o Deploy</a>
-              </button>
+              <a href="https://deploy-spotify-clone.web.app/" target='__blank'>
+                <button className="button button__flex">Veja o Deploy</button>
+              </a>
 
-              <button className="button button__flex">
-                <a href="https://github.com/AdemarCastro/angular-clone-spotify/" target='__blank'>Veja o Repositório</a>
-              </button>
+              <a href="https://github.com/AdemarCastro/angular-clone-spotify/" target='__blank'>
+                <button className="button button__flex">Veja o Repositório</button>
+              </a>
             </div>
 
           </div>
@@ -242,13 +242,13 @@ const Projects = () => {
             </div>
 
             <div className="project__link">
-              <button className="button button__flex">
-                <a href="https://deploy-spotify-clone.web.app/" target='__blank'>Veja o Deploy</a>
-              </button>
+              <a href="https://deploy-spotify-clone.web.app/" target='__blank'>
+                <button className="button button__flex">Veja o Deploy</button>
+              </a>
 
-              <button className="button button__flex">
-                <a href="https://github.com/AdemarCastro/angular-clone-spotify/" target='__blank'>Veja o Repositório</a>
-              </button>
+              <a href="https://github.com/AdemarCastro/angular-clone-spotify/" target='__blank'>
+                <button className="button button__flex">Veja o Repositório</button>
+              </a>
             </div>
 
           </div>
@@ -365,13 +365,13 @@ const Projects = () => {
             </div>
 
             <div className="project__link">
-              <button className="button button__flex">
-                <a href="https://deploy-spotify-clone.web.app/" target='__blank'>Veja o Deploy</a>
-              </button>
+              <a href="https://deploy-spotify-clone.web.app/" target='__blank'>
+                <button className="button button__flex">Veja o Deploy</button>
+              </a>
 
-              <button className="button button__flex">
-                <a href="https://github.com/AdemarCastro/angular-clone-spotify/" target='__blank'>Veja o Repositório</a>
-              </button>
+              <a href="https://github.com/AdemarCastro/angular-clone-spotify/" target='__blank'>
+                <button className="button button__flex">Veja o Repositório</button>
+              </a>
             </div>
 
           </div>
@@ -488,13 +488,13 @@ const Projects = () => {
             </div>
 
             <div className="project__link">
-              <button className="button button__flex">
-                <a href="https://deploy-spotify-clone.web.app/" target='__blank'>Veja o Deploy</a>
-              </button>
+              <a href="https://deploy-spotify-clone.web.app/" target='__blank'>
+                <button className="button button__flex">Veja o Deploy</button>
+              </a>
 
-              <button className="button button__flex">
-                <a href="https://github.com/AdemarCastro/angular-clone-spotify/" target='__blank'>Veja o Repositório</a>
-              </button>
+              <a href="https://github.com/AdemarCastro/angular-clone-spotify/" target='__blank'>
+                <button className="button button__flex">Veja o Repositório</button>
+              </a>
             </div>
 
           </div>

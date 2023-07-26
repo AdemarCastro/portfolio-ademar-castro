@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./header.css";
+import Theme from '../theme/Theme';
 
 const Header = () => {
   /* =============== Change Background Header =============== */
@@ -12,6 +13,8 @@ const Header = () => {
   /* =============== Toggle Menu =============== */
   const[Toggle, showMenu] = useState(false);
   const[activeNav, setActiveNav] = useState("#home");
+  
+  const[mode, setMode] = Theme();
 
   return (
     <header className='header'>
@@ -111,7 +114,7 @@ const Header = () => {
               </a>
             </li>
 
-            <li className='nav__item last__item'>
+            <li className='nav__item'>
               <a href="#contact"
               onClick={() => setActiveNav('#contact')}
               className={
@@ -123,6 +126,21 @@ const Header = () => {
                 <i className='uil uil-message nav__icon'></i> Contato
               </a>
             </li>
+
+            <li className="nav__item last__item">
+              <div className="nav__link">
+                <button className='nav__button' onClick={
+                  () => setMode(mode === 'light' ? 'dark' : 'light')}
+                >
+                  {
+                    mode === 'dark' ?
+                    <i className='bx bx-sun nav__theme'></i> :
+                    <i className='bx bx-moon nav__theme' ></i>
+                  }
+                </button>
+              </div>
+            </li>
+
           </ul>
 
           <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
@@ -137,3 +155,4 @@ const Header = () => {
 }
 
 export default Header
+
