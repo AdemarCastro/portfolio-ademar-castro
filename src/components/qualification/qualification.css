@@ -139,6 +139,26 @@
   animation-delay: 1.8s;
 }
 
+#data3 {
+  animation-delay: 3.6s;
+}
+
+#data4 {
+  animation-delay: 5.4s;
+}
+
+#data5 {
+  animation-delay: 7.2s;
+}
+
+#data6 {
+  animation-delay: 9s;
+}
+
+#data7 {
+  animation-delay: 10.8s;
+}
+
 /* =============== BREAKPOINTS =============== */
 /* For large devices */
 @media screen and (max-width: 992px) {
