@@ -12,7 +12,7 @@ const Webdesigner = () => {
 
             <div>
               <h3 className="skills__name">UI / UX</h3>
-              <span className="skills__level">Avançado</span>
+              <span className="skills__level">Intermediário</span>
             </div>
           </div>
 
@@ -48,7 +48,7 @@ const Webdesigner = () => {
 
             <div>
               <h3 className="skills__name">CSS Flexbox</h3>
-              <span className="skills__level">Avançado</span>
+              <span className="skills__level">Intermediário</span>
             </div>
           </div>
 
@@ -60,7 +60,7 @@ const Webdesigner = () => {
 
             <div>
               <h3 className="skills__name">WordPress</h3>
-              <span className="skills__level">Intermediário</span>
+              <span className="skills__level">Iniciante</span>
             </div>
           </div>
 
@@ -78,7 +78,7 @@ const Webdesigner = () => {
 
             <div>
               <h3 className="skills__name">Pacote Adobe</h3>
-              <span className="skills__level">Avançado</span>
+              <span className="skills__level">Intermediário</span>
             </div>
           </div>
 
@@ -96,7 +96,7 @@ const Webdesigner = () => {
 
             <div>
               <h3 className="skills__name">Canva</h3>
-              <span className="skills__level">Avançado</span>
+              <span className="skills__level">Iniciante</span>
             </div>
           </div>
         </div>
