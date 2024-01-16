@@ -324,7 +324,7 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Process Automation System Development */}
+        {/* Process Automation System Development
         <div className="services__content">
           <div>
             <i className="uil uil-cog services__icon"></i>
@@ -385,7 +385,7 @@ const Services = () => {
             </div>
 
           </div>
-        </div>
+        </div> */}
 
         {/* Test/QA Developer */}
         <div className="services__content">
@@ -449,7 +449,7 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Machine Learning and BI Developer */}
+        {/* Machine Learning and BI Developer
         <div className="services__content">
           <div>
             <i className="uil uil-chart services__icon"></i>
@@ -510,7 +510,7 @@ const Services = () => {
             </div>
 
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
