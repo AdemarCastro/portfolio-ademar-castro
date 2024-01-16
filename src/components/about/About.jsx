@@ -16,7 +16,12 @@ const About = () => {
         <div className="about__data">
           <Info />
 
-          <p className="about__description">Desenvolvedor Full Stack, criei web pages com conceitos de interface UI / UX, consumi API REST em projetos, conectei web pages a Banco de Dados como o MySQL, MongoDB, MariaDB utilizando Express, Node.js e JPA. Atualmente no 4º Semestre do curso TADS no IFAM-CMC. Estou muito feliz em aprender dia após dia fazendo o que amo.</p>
+          <p className="about__description">
+            Atualmente, estou no 4º semestre do curso de Tecnologia em Análise e Desenvolvimento de Sistemas no Instituto Federal de Educação, Ciência e Tecnologia do Estado do Amazonas. Ao longo dos últimos dois anos imerso no universo da tecnologia, adquiri conhecimentos valiosos. Além dos estudos acadêmicos, assumi a posição de Presidente do Centro Acadêmico CAADS, onde desenvolvo diversas atividades extracurriculares visando aprimorar a experiência dos alunos no curso de TADS no IFAM-CMC, tanto para aqueles que já estão cursando quanto para os futuros estudantes.
+          </p>
+          <p className='about__description'>
+            Participo ativamente do Programa Aranouá desde agosto de 2022, onde já concluí 6 cursos, cada um com uma carga horária de 40 horas, abrangendo temas desde Machine Learning até Testes de Software com Selenium. Em outubro de 2023, destaco a minha seleção entre os 60 participantes em um processo seletivo altamente concorrido, composto por 350 candidatos, para o curso "Programa de Desenvolvedor Full Stack" no Senac AM no Centro de Tecnologia. Estou muito satisfeito com meu progresso até o momento e otimista para alcançar conquistas ainda maiores em 2024.
+          </p>
 
           <a download="" href={CV} className="button button__flex">Download CV
 
