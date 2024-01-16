@@ -16,118 +16,6 @@ const Cursos = () => {
 
       <div className="cursos__container container grid">
 
-        {/* Desenvolvimento Web - Udemy */}
-        <div className="cursos__content">
-          <div className="cursos__img-1"></div>
-          <div>
-            <h3 className="cursos__title">Desenvolvimento Web<br /></h3>
-            <p className="cursos__texto">140 horas</p>
-          </div>
-
-          <span className="cursos__button" onClick={() => toggleTab(1)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
-
-          <div className={toggleState === 1 ? "cursos__modal active-modal" : "cursos__modal"}>
-            <div className="cursos__modal-content-dad">
-              <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
-
-              <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
-                <h3 className="cursos__modal-title">Desenvolvimento Web - UDEMY</h3>
-                <p className="cursos__modal-description">
-                  O curso de Desenvolvimento Web possui uma carga horária de 140 horas e tem como objetivo ensinar todo o processo de desenvolvimento de software web, abordando diversos tópicos fundamentais. Durante o curso, foram abordados os seguintes temas:
-                </p>
-
-                <ul className="cursos__modal-cursos grid">
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Fundamentos de HTML, CSS e Javascript.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Introdução ao DOM e controle de versão com Git/GitHub.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Framework Bootstrap e desenvolvimento em Typescript.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Conexão Frontend e Backend com Express e APIs HTTP.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Bancos de Dados MySQL, MariaDB e MongoDB.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Cookies, Sessões e Autenticação.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Rodar aplicações em Contêineres com Docker.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Desenvolvimento de RESTful APIs.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Gerenciamento de Estados com Redux.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Teste de Software com Jest.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Integração Contínua e Deploy com GitHub e Vercel/Netlify/Firebase.
-                    </p>
-                  </li>
-
-                  <li className="cursos__modal-service">
-                    <i className="uil uil-check-circle cursos__modal-icon"></i>
-                    <p className="cursos__modal-info">
-                      Processo de Desenvolvimento Ágil com Jira.
-                    </p>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-
         {/* Desenvolvimento de Aplicações Web - IFAM*/}
         <div className="cursos__content">
           <div className="cursos__img-2"></div>
@@ -176,6 +64,174 @@ const Cursos = () => {
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
                     Utilização das técnicas CRUD (GET, PUT, POST e DELETE) para lidar com as requisições e o tratamento da conexão com o Banco de Dados.
+                  </p>
+                </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Programação Orientada a Objetos em Java - DIO*/}
+        <div className="cursos__content">
+          <div className="cursos__img-4"></div>
+          <div>
+            <h3 className="cursos__title">Programação Orientada a Objetos em Java<br /></h3>
+            <p className="cursos__texto">10 horas</p>
+          </div>
+
+          <span className="cursos__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+
+          <div className={toggleState === 2 ? "cursos__modal active-modal" : "cursos__modal"}>
+            <div className="cursos__modal-content-dad">
+              <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
+              <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
+
+              
+
+              <h3 className="cursos__modal-title">Programação Orientada a Objetos em Java - DIO</h3>
+              <p className="cursos__modal-description">
+                Durante a minha experiência no curso de Programação Orientada a Objetos em Java na Digital Inovation One (DIO), com duração de 10 horas, obtive conquistas significativas ao desenvolver várias habilidades relacionadas a orientação a objetos. Dentre as principais conquistas, estão:
+              </p>
+
+              <ul className="cursos__modal-cursos grid">
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Fundamentos da Orientação a Objetos.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Pilares da Programação Orientada a Objetos.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Orientação a Objetos e UML: Diagramação de Classes.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Criando um Banco Digital com Java em CLI.
+                  </p>
+                </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Programação Orientada a Objetos em Java - DIO*/}
+        <div className="cursos__content">
+          <div className="cursos__img-4"></div>
+          <div>
+            <h3 className="cursos__title">Programação Orientada a Objetos em Java<br /></h3>
+            <p className="cursos__texto">10 horas</p>
+          </div>
+
+          <span className="cursos__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+
+          <div className={toggleState === 2 ? "cursos__modal active-modal" : "cursos__modal"}>
+            <div className="cursos__modal-content-dad">
+              <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
+              <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
+
+              
+
+              <h3 className="cursos__modal-title">Programação Orientada a Objetos em Java - DIO</h3>
+              <p className="cursos__modal-description">
+                Durante a minha experiência no curso de Programação Orientada a Objetos em Java na Digital Inovation One (DIO), com duração de 10 horas, obtive conquistas significativas ao desenvolver várias habilidades relacionadas a orientação a objetos. Dentre as principais conquistas, estão:
+              </p>
+
+              <ul className="cursos__modal-cursos grid">
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Fundamentos da Orientação a Objetos.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Pilares da Programação Orientada a Objetos.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Orientação a Objetos e UML: Diagramação de Classes.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Criando um Banco Digital com Java em CLI.
+                  </p>
+                </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Programação Orientada a Objetos em Java - DIO*/}
+        <div className="cursos__content">
+          <div className="cursos__img-4"></div>
+          <div>
+            <h3 className="cursos__title">Programação Orientada a Objetos em Java<br /></h3>
+            <p className="cursos__texto">10 horas</p>
+          </div>
+
+          <span className="cursos__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+
+          <div className={toggleState === 2 ? "cursos__modal active-modal" : "cursos__modal"}>
+            <div className="cursos__modal-content-dad">
+              <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
+              <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
+
+              
+
+              <h3 className="cursos__modal-title">Programação Orientada a Objetos em Java - DIO</h3>
+              <p className="cursos__modal-description">
+                Durante a minha experiência no curso de Programação Orientada a Objetos em Java na Digital Inovation One (DIO), com duração de 10 horas, obtive conquistas significativas ao desenvolver várias habilidades relacionadas a orientação a objetos. Dentre as principais conquistas, estão:
+              </p>
+
+              <ul className="cursos__modal-cursos grid">
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Fundamentos da Orientação a Objetos.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Pilares da Programação Orientada a Objetos.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Orientação a Objetos e UML: Diagramação de Classes.
+                  </p>
+                </li>
+
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Criando um Banco Digital com Java em CLI.
                   </p>
                 </li>
               </ul>
