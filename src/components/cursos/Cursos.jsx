@@ -16,6 +16,123 @@ const Cursos = () => {
 
       <div className="cursos__container container grid">
 
+        {/* Testes de Software com Selenium - ARANOUÁ */}
+        <div className="cursos__content">
+          <div className="cursos__img-3"></div>
+          <div>
+            <h3 className="cursos__title">Testes de Software com Selenium <br /></h3>
+            <p className="cursos__texto">40 horas</p>
+          </div>
+
+          <span className="cursos__button" onClick={() => toggleTab(16)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+
+          <div className={toggleState === 16 ? "cursos__modal active-modal" : "cursos__modal"}>
+            <div className="cursos__modal-content-dad">
+              <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
+              <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
+
+
+                <h3 className="cursos__modal-title">Testes de Software com Selenium - DIO</h3>
+                <p className="cursos__modal-description">
+                  Durante o curso de Testes com Selenium, com certificação do Projeto ARANOUÁ, do qual sou Bolsista, e duração de 40 horas, tive a oportunidade de aprender sobre a importância de testes automatizados e o uso prático do Selenium. Algumas das principais áreas abordadas foram:
+                </p>
+
+                <ul className="cursos__modal-cursos grid">
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Importância do Teste Automatizado.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Ferramentas de Automatização e Características do Teste.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Diferenças entre Desenvolvimento e Teste de Software.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Variedade de Tipos de Testes.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Uso Prático do Selenium.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Design Thinking e Design Sprint: Desbloqueie o seu Potencial Criativo - ARANOUÁ */}
+        <div className="cursos__content">
+          <div className="cursos__img-3"></div>
+          <div>
+            <h3 className="cursos__title">Design Thinking e Design Sprint <br /></h3>
+            <p className="cursos__texto">40 horas</p>
+          </div>
+
+          <span className="cursos__button" onClick={() => toggleTab(15)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+
+          <div className={toggleState === 15 ? "cursos__modal active-modal" : "cursos__modal"}>
+            <div className="cursos__modal-content-dad">
+              <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
+              <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
+
+
+                <h3 className="cursos__modal-title">Design Thinking e Design Sprint - ARANOUÁ</h3>
+                <p className="cursos__modal-description">
+                  Durante o curso de Design Thinking e Design Sprint, com certificação do Projeto ARANOUÁ, do qual sou Bolsista, e duração de 40 horas, tive a oportunidade de aprender sobre os conceitos de Design Sprint, seguido por atividades práticas para aplicar esses conceitos. Algumas das principais áreas abordadas foram:
+                </p>
+
+                <ul className="cursos__modal-cursos grid">
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Fundamentos de Design Sprint.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Aplicação Prática dos Conceitos Aprendidos.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Diferenças entre Design Sprint e Design Thinking.
+                    </p>
+                  </li>
+
+                  <li className="cursos__modal-service">
+                    <i className="uil uil-check-circle cursos__modal-icon"></i>
+                    <p className="cursos__modal-info">
+                      Participei do Desenvolvimento de um Projeto Prático Usando os Princípios do Design Sprint.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Desenvolvimento de Aplicações Web - IFAM*/}
         <div className="cursos__content">
           <div className="cursos__img-2"></div>
@@ -24,9 +141,9 @@ const Cursos = () => {
             <p className="cursos__texto">80 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(14)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 2 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 14 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
@@ -80,9 +197,9 @@ const Cursos = () => {
             <p className="cursos__texto">10 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(13)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 2 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 13 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
@@ -128,54 +245,60 @@ const Cursos = () => {
           </div>
         </div>
 
-        {/* Programação Orientada a Objetos em Java - DIO*/}
+        {/* Escopo e Estruturas de Controle em Java - DIO*/}
         <div className="cursos__content">
           <div className="cursos__img-4"></div>
           <div>
-            <h3 className="cursos__title">Programação Orientada a Objetos em Java<br /></h3>
-            <p className="cursos__texto">10 horas</p>
+            <h3 className="cursos__title">Escopo e Estruturas de Controle em Java<br /></h3>
+            <p className="cursos__texto">6 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(12)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 2 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 12 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
 
               
 
-              <h3 className="cursos__modal-title">Programação Orientada a Objetos em Java - DIO</h3>
+              <h3 className="cursos__modal-title">Escopo e Estruturas de Controle em Java - DIO</h3>
               <p className="cursos__modal-description">
-                Durante a minha experiência no curso de Programação Orientada a Objetos em Java na Digital Inovation One (DIO), com duração de 10 horas, obtive conquistas significativas ao desenvolver várias habilidades relacionadas a orientação a objetos. Dentre as principais conquistas, estão:
+                Durante a minha experiência no curso de Escopo e Estruturas de Controle em Java na Digital Inovation One (DIO), com duração de 6 horas, obtive conquistas significativas ao desenvolver várias habilidades relacionadas a orientação a objetos. Dentre as principais conquistas, estão:
               </p>
 
               <ul className="cursos__modal-cursos grid">
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Fundamentos da Orientação a Objetos.
+                    Introdução a Estruturas Condicionais com Java.
                   </p>
                 </li>
 
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Pilares da Programação Orientada a Objetos.
+                    Estruturas de Repetição em Java.
                   </p>
                 </li>
 
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Orientação a Objetos e UML: Diagramação de Classes.
+                    Java e Tratamento de Exceções.
                   </p>
                 </li>
 
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Criando um Banco Digital com Java em CLI.
+                    Controle de Fluxo.
+                  </p>
+                </li>
+                <li className="cursos__modal-service">
+                  <i className="uil uil-check-circle cursos__modal-icon"></i>
+                  <p className="cursos__modal-info">
+                    Criando um Pequeno Sistema para Validação de Processos Seletivo.
                   </p>
                 </li>
               </ul>
@@ -184,54 +307,54 @@ const Cursos = () => {
           </div>
         </div>
 
-        {/* Programação Orientada a Objetos em Java - DIO*/}
+        {/* Fundamentos da Plataforma Java - DIO*/}
         <div className="cursos__content">
           <div className="cursos__img-4"></div>
           <div>
-            <h3 className="cursos__title">Programação Orientada a Objetos em Java<br /></h3>
+            <h3 className="cursos__title">Fundamentos da Plataforma Java<br /></h3>
             <p className="cursos__texto">10 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(11)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 2 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 11 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
 
               
 
-              <h3 className="cursos__modal-title">Programação Orientada a Objetos em Java - DIO</h3>
+              <h3 className="cursos__modal-title">Fundamentos da Plataforma Java - DIO</h3>
               <p className="cursos__modal-description">
-                Durante a minha experiência no curso de Programação Orientada a Objetos em Java na Digital Inovation One (DIO), com duração de 10 horas, obtive conquistas significativas ao desenvolver várias habilidades relacionadas a orientação a objetos. Dentre as principais conquistas, estão:
+                Durante a minha experiência no curso de Fundamentos da Plataforma Java na Digital Inovation One (DIO), com duração de 10 horas, obtive conquistas significativas ao desenvolver várias habilidades relacionadas a orientação a objetos. Dentre as principais conquistas, estão:
               </p>
 
               <ul className="cursos__modal-cursos grid">
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Fundamentos da Orientação a Objetos.
+                    Introdução à Plataforma Java.
                   </p>
                 </li>
 
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Pilares da Programação Orientada a Objetos.
+                    Ambiente de Desenvolvimento Java.
                   </p>
                 </li>
 
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Orientação a Objetos e UML: Diagramação de Classes.
+                    Aprendendo a Sintaxe Java.
                   </p>
                 </li>
 
                 <li className="cursos__modal-service">
                   <i className="uil uil-check-circle cursos__modal-icon"></i>
                   <p className="cursos__modal-info">
-                    Criando um Banco Digital com Java em CLI.
+                    Simulando uma Conta Bancária Através do Terminal.
                   </p>
                 </li>
               </ul>
@@ -240,7 +363,7 @@ const Cursos = () => {
           </div>
         </div>
 
-        {/* Desenvolvimento na Prática com Spring e Testes - ARANOUÁ */}
+        {/* Desenvolvimento, na Prática com Spring e Testes - ARANOUÁ */}
         <div className="cursos__content">
           <div className="cursos__img-3"></div>
           <div>
@@ -248,15 +371,15 @@ const Cursos = () => {
             <p className="cursos__texto">40 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(3)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(10)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 3 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 10 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
                 
 
-                <h3 className="cursos__modal-title">Desenvolvimento na Prática com Spring e Testes - ARANOUÁ</h3>
+                <h3 className="cursos__modal-title">Desenvolvimento na Prática com Spring e Testes - DIO</h3>
                 <p className="cursos__modal-description">
                   Durante o curso de Spring e Testes, com certificação do Projeto ARANOUÁ, do qual sou Bolsista, e duração de 40 horas, tive a oportunidade de aprender sobre o desenvolvimento backend e a realização de testes em aplicações Java. Algumas das principais áreas abordadas foram:
                 </p>
@@ -303,9 +426,9 @@ const Cursos = () => {
             <p className="cursos__texto">60 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(4)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(9)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 4 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 9 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
               <div className="cursos__modal-content"  onMouseDown={(e) => mouseDownHandler(e.currentTarget, e)}>
@@ -350,9 +473,9 @@ const Cursos = () => {
             <p className="cursos__texto">80 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(5)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(8)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 5 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 8 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
@@ -421,10 +544,10 @@ const Cursos = () => {
             <p className="cursos__texto">5 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(6)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(7)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
           
           
-          <div className={toggleState === 6 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 7 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
@@ -492,9 +615,9 @@ const Cursos = () => {
             <p className="cursos__texto">60 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(7)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(6)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 7 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 6 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
@@ -548,9 +671,9 @@ const Cursos = () => {
             <p className="cursos__texto">80 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(8)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(5)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 8 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 5 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
@@ -632,7 +755,7 @@ const Cursos = () => {
           </div>
         </div>
 
-        {/* Fundamentos em Testes de Software */}
+        {/* Fundamentos em Testes de Software - ARANOUÁ*/}
         <div className="cursos__content">
           <div className="cursos__img-3"></div>
           <div>
@@ -640,9 +763,9 @@ const Cursos = () => {
             <p className="cursos__texto">40 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(9)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(4)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 9 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 4 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
@@ -718,9 +841,9 @@ const Cursos = () => {
             <p className="cursos__texto">384 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(10)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(3)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 10 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 3 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
@@ -781,7 +904,7 @@ const Cursos = () => {
           </div>
         </div>
 
-        {/* Machine Learning com Python */}
+        {/* Machine Learning com Python - ARANOUÁ*/}
         <div className="cursos__content">
           <div className="cursos__img-3"></div>
           <div>
@@ -789,9 +912,9 @@ const Cursos = () => {
             <p className="cursos__texto">40 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(11)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 11 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 2 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
@@ -852,7 +975,7 @@ const Cursos = () => {
           </div>
         </div>
 
-        {/* Ethical Hacking */}
+        {/* Ethical Hacking - ARANOUÁ*/}
         <div className="cursos__content">
           <div className="cursos__img-3"></div>
           <div>
@@ -860,9 +983,9 @@ const Cursos = () => {
             <p className="cursos__texto">40 horas</p>
           </div>
 
-          <span className="cursos__button" onClick={() => toggleTab(12)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
+          <span className="cursos__button" onClick={() => toggleTab(1)}>Veja mais <i className="uil uil-arrow-right cursos__button-icon"></i></span>
 
-          <div className={toggleState === 12 ? "cursos__modal active-modal" : "cursos__modal"}>
+          <div className={toggleState === 1 ? "cursos__modal active-modal" : "cursos__modal"}>
             <div className="cursos__modal-content-dad">
               <i onClick={() => toggleTab(0)} className="uil uil-times cursos__modal-close"></i>
 
